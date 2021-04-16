@@ -50,6 +50,10 @@ img {
 .nav-link {
 	text-decoration: none;
 	color: white;
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
 }
 .FondoNegro {
 	background-color: black;
