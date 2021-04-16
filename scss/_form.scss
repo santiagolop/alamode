@@ -1,0 +1,27 @@
+#Recibido {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.ClaseForm {
+	text-align: center;
+	position: relative;
+	top: 200px;
+	.claseform input[type=text] { width: 12%;
+	padding: 5px;
+	margin-right: 10px;
+	input[type=email] {
+		width: 12%;
+		padding: 5px;
+	}
+	input[type=submit] {
+		width: 12%;
+		padding: 10px;
+		margin-right: 10px;
+	}
+	input[type=reset] {
+		width: 12%;
+		padding: 10px;
+	}
+}
+}

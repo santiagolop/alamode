@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+	background-color: white;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.drop {
+	width: 100%;
+	text-align: center;
+}
+.logo {
+	color: white;
+	text-align:center;
+	font-weight: 800;
+	padding-top: 10px;
+	margin: 0;
+}
+.FondoNegro {
+	background-color: black;
+}
+
+.Color {
+	color: #92002d;
+}
+
+#ClaseFooter {
+	position: absolute;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.fotoDesfile {
+	height: 200px;
+}
+
+.carousel-inner img {
+	margin: auto;
+	height: auto;
+}
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+#VideoDesfile {
+	display: block;
+	margin: 10px auto;
+}
+#Tabla {
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #92002d;
+	padding: 10px;
+	border-spacing: 20px;
+}
+
+#ClaseFooter h5{
+	display: inline-block;
+	padding: 20px;
+	color: white;
+}
+
+#ClaseFooter h5 a {
+	color: white;
+}
+
+.Foto {
+	margin: 20px;
+	height: 300px;
+}
+
+#Recibido {
+	text-align: center;
+	padding-top: 70px;
+}
+
+
+.TituloTabla {
+	font-size: 20px;
+	color: #92002d;
+}
+
+#DivProductos {
+	display: grid;
+	grid-template-columns: 20% 20% 20%;
+	grid-template-rows: 50% 50%;
+	justify-content: space-around;
+}
+
+#ingresos {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+#DivProductosHome {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	justify-content: space-around;
+}
+
+.Item {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+
+.Foto:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.ClaseForm {
+	text-align: center;
+	position: relative;
+	top: 200px;
+}
+
+.ClaseForm input[type=text]{
+	width: 12%;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.ClaseForm input[type=email]{
+	width: 12%;
+	padding: 5px;
+}
+
+.ClaseForm input[type=submit]{
+	width: 12%;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.ClaseForm input[type=reset]{
+	width: 12%;
+	padding: 10px;
+}
