@@ -74,11 +74,11 @@
 .thumbnail {
   position: relative; }
 
-.caption {
+.divText {
   position: absolute;
   top: 1.25rem;
   left: 2.1875rem; }
-  .caption h2 {
+  .divText h2 {
     font-weight: bolder;
     font-style: italic;
     color: rgba(255, 255, 255, 0.3);
@@ -109,4 +109,4 @@
   margin-bottom: 50px;
   margin-top: 30px; }
   .Item h5 {
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
