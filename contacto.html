@@ -5,59 +5,52 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="HandheldFriendly" content="true">
+      <meta name="description" content="Alamode es una marca de indumentaria unisex que ofrece la mejor variedad de ropa para estar a la moda">
+      <meta name="keywords"  content="ROPA, ALAMODE, TIENDA, INDUMENTARIA, MODA">
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <title>álamode</title>
+      <title>alamode</title>
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark">
-         <a class="navbar-brand" href="index.html">alámode</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item dropdown active">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  Categorías
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="hombre.html">Hombre</a>
-                     <a class="dropdown-item" href="mujer.html">Mujer</a>
-                     <a class="dropdown-item" href="kids.html">Kids</a>
-                     <a class="dropdown-item" href="accesorios.html">Accesorios</a>
-                  </div>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><h1 class='logoFont'>alamode</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+               <li class="nav-item active">
+                <a class="nav-link" href="hombre.html">Men</a>
                </li>
                <li class="nav-item active">
-                  <a class="nav-link" href="ingresos.html">Nuevos ingresos<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="mujer.html">Women</a>
                </li>
                <li class="nav-item active">
-                  <a class="nav-link" href="ofertas.html">Ofertas<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="shoewear.html">Shoes</a>
                </li>
-            </ul>
+              </ul>
+            </div>
+         </nav>
+      </header>
+      <div class='container mt-5'>
+      <form>
+         <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="password" class="form-control" id="name" placeholder="Nombre">
+          </div>
+         <div class="form-group">
+           <label for="exampleInputEmail1">Email</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su email">
          </div>
-      </nav>
-      <div>
-         <form class="ClaseForm" action="recibido.html" method="post">
-            <input type="text" name="nombre" placeholder="Ingrese su nombre">
-            <input type="email" name="mail" placeholder="Ingrese su email"> <br><br>
-            <select value="">
-               <option name="" id="">Hombre</option>
-               <option name="" id="">Mujer</option>
-               <option name="" id="">Otro</option>
-            </select>
-            <br><br>
-            <label for="check">¿Desea recibir newsletter?</label>
-            <input type="checkbox" name="news" id="check"> <br><br>
-            <input type="submit"name="enviar">
-            <input type="reset" name="borrar">
-         </form>
+         <div class="form-check">
+           <input type="checkbox" class="form-check-input" id="exampleCheck1">
+           <label class="form-check-label" for="exampleCheck1">¿Desea recibir Newsletter y novedades?</label>
+         </div>
+         <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+       </form>
       </div>
-      <footer class="FondoNegro" id="ClaseFooter">
-         <h5>Tiendas</h5>
-         <h5><a href="contacto.html">Contacto</a></h5>
-         <h5>Más información</h5>
-      </footer>
+      <h2 style='text-align: center'>En construccion!</h2>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
    </body>
