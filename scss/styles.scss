@@ -31,6 +31,12 @@
 	}
 }
 
+.heading {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 3rem;
+	margin-top: 30px;
+}
 .ingresos{
 	text-align:center;
 	margin-top: 40px;
@@ -53,6 +59,23 @@
 	}
 }
 
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+	position: absolute;
+	top: 1.25rem;
+	left: 2.1875rem;
+	h2 {
+		font-weight: bolder;
+		font-style:italic;
+		color: rgba(255, 255, 255, 0.3);
+		font-size: 2.9rem;
+	}
+}
+
 .imgHome{
 	position: relative;
 }
@@ -60,7 +83,7 @@
 .imgText {
 	position: absolute;
 	top: 1.25rem;
-	left: 2.1875rem;
+	left: 75%;
 	h2 {
 		font-weight: bolder;
 		font-style:italic;
