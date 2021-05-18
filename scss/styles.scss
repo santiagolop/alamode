@@ -11,7 +11,6 @@
 	font-size: 100%;
 }
 
-
 .logoFont {
 	font-family: $fuenteLogo;
 	font-size: 2rem;
@@ -20,6 +19,100 @@
 	font-weight: bolder;
 }
 
+.homeContainer {
+	position: relative;
+	img {
+		max-height: 2000px;
+	}
+	h2{
+		color: #fff;
+		font-size: 2.5vw;
+		font-weight: bolder;
+		position: absolute;
+		top: 63%;
+		left: 3%;
+	}
+	.btnComprar {
+		position: absolute;
+		font-weight: bold;
+		font-size: 1vw;
+		top: 73%;
+		left: 3%;
+		padding: 0.5vw 1vw;
+	}
+
+}
+
+.btnFotos {
+	position: relative;
+	font-weight: bold;
+	font-size: 1vw;
+	top: 73%;
+	left: 50px;
+	padding: 0.5vw 1vw;
+}
+
+.womenText {
+	position: absolute;
+		top: 40%;
+		left: 20%;
+		transform: translate(-50% , -50%);
+		-webkit-transform: translate(-50%, -50%);
+	h2 {
+		color: #fff;
+		font-size: 2.5vw;
+		font-weight: bolder;
+		font-style: italic;
+	}
+}
+
+.shoesText {
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50% , -50%);
+		-webkit-transform: translate(-50%, -50%);
+	h2 {
+		color: #fff;
+		font-size: 2.5vw;
+		font-weight: bolder;
+		font-style: italic;
+		text-align: center;
+	}
+}
+header {
+	position: absolute;
+
+	button {
+		position: relative;
+	}
+}
+
+.textContainer {
+	top: 30%;
+	left: 14%;
+	transform: translate(-50% , -50%);
+	-webkit-transform: translate(-50%, -50%);
+	position: absolute;
+	h2{
+		color: #000;
+		font-size: 3vw;
+		font-weight: bolder;
+		font-style: italic;
+		letter-spacing: 2px;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.imgContainer {
+	  display: none;
+  }
+  header{
+	  position:relative;
+	  background-color: #000;
+  }
+}
 .nav-link {
 	font-weight: bold;
 	font-size: 1.1rem;
@@ -32,72 +125,16 @@
 }
 
 .heading {
-	text-align: center;
 	font-weight: bolder;
-	font-size: 3rem;
+	margin-left: 70px;
+	font-style: italic;
+	font-size: 1.7rem;
 	margin-top: 30px;
 }
-.ingresos{
-	text-align:center;
-	margin-top: 40px;
-	font-weight: bold;
-	font-size: 3rem;
-}
-#ClaseFooter {
-	background-color: black;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	h5 {
-		font-size: 1.3rem;
-		display: inline-block;
-		padding: 20px;
-		color: white;
-		a {
-			color: white;
-		}
-	}
-}
 
 
-.thumbnail {
-    position: relative;
-}
-
-.divText {
-	position: absolute;
-	top: 1.25rem;
-	left: 2.1875rem;
-	h2 {
-		font-weight: bolder;
-		font-style:italic;
-		color: rgba(255, 255, 255, 0.3);
-		font-size: 2.9rem;
-	}
-}
-
-.imgHome{
-	position: relative;
-}
-
-.imgText {
-	position: absolute;
-	top: 1.25rem;
-	left: 75%;
-	h2 {
-		font-weight: bolder;
-		font-style:italic;
-		color: rgba(255, 255, 255, 0.3);
-		font-size: 2.9rem;
-	}
-}
 .Foto {
-	margin: 20px;
 	max-height: 300px;
-	&:hover {
-		transform: scale(1.1);
-		transition: 0.3s;
-	}
 }
 
 .Item {
@@ -106,5 +143,114 @@
 	margin-top: 30px;
 	h5 {
 		font-size: 1.3rem;
+		margin-top: 5px;
+		font-weight: bold;
 	}
+	&:hover {
+		transform: scale(1.1);
+		transition: 0.3s;
+	}
+}
+
+.footerAlamode{
+	background-color: black;
+}
+
+.textoBlanco {
+	color: white;
+	h5{ 
+	margin-top: 30px;
+	font-weight: bold;
+	}
+	h2 {
+		margin-top: 30px;
+		font-weight: bolder;
+		font-family: $fuenteLogo;
+	}
+	a {
+		margin-top: 30px;
+		text-decoration: none;
+		color: white;
+	}
+}
+.breadcrumbClass {
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+.jumbotron {
+	background-image: url('../img/fotoDesfile.jpg');
+	background-size: cover;
+	h2 {
+		text-align: left;
+		font-size: 2rem;
+		margin-left: 50px;
+		color: #fff;
+		font-weight: bolder;
+	}
+	p{
+		text-align: left;
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-left: 50px;
+		color: #fff;
+	}
+}
+
+.tz-gallery {
+    padding-top: 70px;
+}
+
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(46, 132, 206, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
 }
