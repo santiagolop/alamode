@@ -46,10 +46,12 @@
 .btnFotos {
 	position: relative;
 	font-weight: bold;
-	font-size: 1vw;
+	font-size: 1rem;
 	top: 73%;
 	left: 50px;
 	padding: 0.5vw 1vw;
+	min-width: 100px;
+	min-height: 20px;
 }
 
 .womenText {
@@ -132,9 +134,18 @@ header {
 	margin-top: 30px;
 }
 
+.headingDesfile {
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 3vw;
+	padding-top: 100px;
+	text-align:center;
+	color: #fff;
+}
+
 
 .Foto {
-	max-height: 300px;
+	max-height: 270px;
 }
 
 .Item {
@@ -173,10 +184,6 @@ header {
 		color: white;
 	}
 }
-.breadcrumbClass {
-	margin-top: 10px;
-	background-color: #fff;
-}
 
 .jumbotron {
 	background-image: url('../img/fotoDesfile.jpg');
@@ -198,6 +205,7 @@ header {
 }
 
 .tz-gallery {
+	padding: 20px;
     padding-top: 70px;
 }
 
@@ -211,22 +219,6 @@ header {
     position: relative;
 }
 
-.tz-gallery .lightbox:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13px;
-    margin-left: -13px;
-    opacity: 0;
-    color: #fff;
-    font-size: 26px;
-    font-family: 'Glyphicons Halflings';
-    content: '\e003';
-    pointer-events: none;
-    z-index: 9000;
-    transition: 0.4s;
-}
-
 
 .tz-gallery .lightbox:after {
     position: absolute;
@@ -235,7 +227,6 @@ header {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: rgba(46, 132, 206, 0.7);
     content: '';
     transition: 0.4s;
 }
